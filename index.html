@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autoflow – Automation & Network Monitoring</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0f1f;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #0052cc, #00c6ff);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #0d1326;
+      padding: 0.5rem;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00c6ff;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #00c6ff;
+    }
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #141b2d;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #0d1326;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+    footer a {
+      color: #00c6ff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Autoflow</h1>
+    <p>Smart Automation & Network Monitoring Solutions</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Autoflow</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      At Autoflow, we help businesses save time and reduce downtime with 
+      smart automation scripts, real-time monitoring, and reliable IT support. 
+      Whether you’re a startup or enterprise, we’ve got you covered.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Automation Scripts</h3>
+        <p>Custom Python scripts that eliminate repetitive work and increase productivity.</p>
+      </div>
+      <div class="card">
+        <h3>Network Monitoring</h3>
+        <p>Real-time dashboards, uptime tracking, and alerts to keep systems running 24/7.</p>
+      </div>
+      <div class="card">
+        <h3>Tech Support</h3>
+        <p>Remote setup, troubleshooting, and ongoing maintenance for your infrastructure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Ping Monitor App</h3>
+        <p>A dashboard that tracks host availability and latency in real-time.</p>
+      </div>
+      <div class="card">
+        <h3>Log Analyzer</h3>
+        <p>A script that auto-parses system logs and generates error reports instantly.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Automation</h3>
+        <p>Solutions tailored to your unique business processes and workflow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Let’s build your next automation project.</p>
+    <p style="text-align:center;">
+      📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a><br>
+      💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Autoflow. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
